@@ -100,7 +100,7 @@ body {
   transform: translate(-50%, -50%) translateX(100%);
   width: 500px; /* Ajusta el tamaño según tus necesidades */
   height: 500px; /* Ajusta el tamaño según tus necesidades */
-  background-image: url('bote%20celeste_Mesa%20de%20trabajo%201.png');
+  background-image: url('Bote%20celeste_Mesa%20de%20trabajo%201.png');
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 1; /* Asegura que esté por encima de la imagen de fondo */
