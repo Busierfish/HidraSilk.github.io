@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FlexBox Exercise #3 - Image carousel</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+
+  <head>
+    <title>FlexBox Exercise #3 - Image carousel / Responsive </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <div class="carousel">
+      <div class="carousel__nav">
+        <span id="moveLeft" class="carousel__arrow">
+          <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+          </svg>
+        </span>
+        <span id="moveRight" class="carousel__arrow">
+          <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+          </svg>
+        </span>
+      </div>
+      <div class="carousel-item carousel-item--1 active">
+        <div class="carousel-item__image"></div>
+        <div class="overlay-image"></div>
+        <div class="carousel-item__info">
+            <div class="carousel-item__container">
+                <!-- <h2 class="carousel-item__subtitle">The grand moment</h2> -->
+                <h1 class="carousel-item__title">Anticaspa</h1>
+                <p class="carousel-item__description">Descripción: El Shampoo Anticaspa, con piritiona de zinc y extracto de árbol de té, elimina la caspa desde la primera aplicación, dejando tu cabello fresco y sin picor. ¡Libérate de la caspa y recupera tu confianza!</p>
+                <p class="carousel-item__description">Beneficios:<br>
+
+                  El extracto de árbol de té y el aceite de neem son conocidos por sus propiedades antifúngicas y antibacterianas.<br>
+                  El romero estimula el cuero cabelludo y ayuda a reducir la caspa.<br>
+                  El aceite esencial de eucalipto tiene propiedades refrescantes y antisépticas.</p>
+                <!-- <a href="#" class="carousel-item__btn">Explore the tour</a> -->
+            </div>
+        </div>
+    </div>
+       
+      <div class="carousel-item carousel-item--3">
+        <div class="carousel-item__image"></div>
+        <div class="overlay-image3"></div>
+
+         <div class="carousel-item__info">
+            <div class="carousel-item__container">
+                <!-- <h2 class="carousel-item__subtitle">The grand moment</h2> -->
+                <h1 class="carousel-item__title">Anticaída</h1>
+                <p class="carousel-item__description">Descripción: Fortalece y estimula el crecimiento con nuestro Shampoo Anticaída. La biotina y la cafeína revitalizan tu cabello, haciéndolo más fuerte y denso. ¡Recupera la vitalidad y densidad de tu melena!.</p>
+                <p class="carousel-item__description">Beneficios:<br>
+
+                  El extracto de ortiga y ginseng fortalecen el cabello y promueven el crecimiento.<br>
+                  El aceite de ricino es conocido por sus propiedades de estimulación del folículo piloso.<br>
+                  El aceite esencial de menta mejora la circulación sanguínea en el cuero cabelludo.</p>
+                <!-- <a href="#" class="carousel-item__btn">Explore the tour</a> -->
+            </div>
+        </div>
+    </div>
+
+      
+
+      <div class="carousel-item carousel-item--5">
+        <div class="carousel-item__image"></div>
+        <div class="overlay-image5"></div>
+
+        <div class="carousel-item__info">
+          <div class="carousel-item__container">
+            <!-- <h2 class="carousel-item__subtitle">The white building </h2> -->
+            <h1 class="carousel-item__title">Cabello Liso</h1>
+            <p class="carousel-item__description">
+              Descripción: Nuestro Shampoo para Pelo Liso, con aceite de argán y keratina, deja tu cabello suave, manejable y sin frizz, dándole un brillo radiante. Perfecto para un estilo impecable.
+
+            </p>
+            
+            <p class="carousel-item__description">
+              Beneficios:<br>
+
+El aloe vera y el aceite de argán aportan hidratación y brillo.<br>
+La proteína de seda ayuda a suavizar y alisar el cabello.<br>
+El aceite esencial de lavanda da un aroma agradable y tiene propiedades relajantes.
+            </p>
+             
+            <!-- <a href="#" class="carousel-item__btn">Read the article</a> -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
